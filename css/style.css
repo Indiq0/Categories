@@ -1,0 +1,230 @@
+
+body {
+	background-image: url(../img/backgrounds/hotel_bkg_light.jpg);
+	background-size: 100%;
+/*	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9d9892;
+    line-height: 30px;
+    text-align: center;*/
+}
+
+
+.bonvoy {
+position: absolute;
+
+
+}
+
+.category1 {
+    /*padding-top: 0px;*/
+   position: absolute; /* Относительное позиционирование */
+	margin: 180px 0 0 0;
+/*	width: 1000px; */
+ /*   position: center; /* Относительное позиционирование */
+/*    text-align: center; */
+    font-size: 60px;
+    font-weight: 400;
+   }
+
+
+.category2 {
+    /*padding-top: 0px;*/
+   position: absolute; /* Относительное позиционирование */
+	margin: 265px 0 0 0; 
+ /*   position: center; /* Относительное позиционирование */
+/*    text-align: center; */
+    font-size: 60px;
+    font-weight: 400;
+   }
+
+
+.category3 {
+    /*padding-top: 0px;*/
+   position: absolute; /* Относительное позиционирование */
+	margin: 350px 0 0 0; 
+ /*   position: center; /* Относительное позиционирование */
+/*    text-align: center; */
+    font-size: 60px;
+    font-weight: 400;
+   }
+
+.category4 {
+    /*padding-top: 0px;*/
+   position: absolute; /* Относительное позиционирование */
+	margin: 435px 0 0 0; 
+ /*   position: center; /* Относительное позиционирование */
+/*    text-align: center; */
+    font-size: 60px;
+    font-weight: 400;
+   }
+
+.category5 {
+    /*padding-top: 0px;*/
+   position: absolute; /* Относительное позиционирование */
+	margin: 520px 0 0 0; 
+ /*   position: center; /* Относительное позиционирование */
+/*    text-align: center; */
+    font-size: 60px;
+    font-weight: 400;
+   }
+
+.category6 {
+    /*padding-top: 0px;*/
+   position: absolute; /* Относительное позиционирование */
+	margin: 605px 0 0 0; 
+ /*   position: center; /* Относительное позиционирование */
+/*    text-align: center; */
+    font-size: 60px;
+    font-weight: 400;
+   }
+
+
+.category7 {
+    /*padding-top: 0px;*/
+   position: absolute; /* Относительное позиционирование */
+	margin: 690px 0 0 0; 
+ /*   position: center; /* Относительное позиционирование */
+/*    text-align: center; */
+    font-size: 60px;
+    font-weight: 400;
+   }
+
+.category8 {
+    /*padding-top: 0px;*/
+   position: absolute; /* Относительное позиционирование */
+	margin: 775px 0 0 0; 
+ /*   position: center; /* Относительное позиционирование */
+/*    text-align: center; */
+    font-size: 60px;
+    font-weight: 400;
+   }
+
+.category9 {
+    /*padding-top: 0px;*/
+   position: absolute; /* Относительное позиционирование */
+	margin: 860px 0 0 0; 
+ /*   position: center; /* Относительное позиционирование */
+/*    text-align: center; */
+    font-size: 60px;
+    font-weight: 400;
+   }
+
+.backward {
+    /*padding-top: 0px;*/
+   position: absolute; /* Относительное позиционирование */
+	margin-top: 1025px;
+	z-index: 1;
+/*	margin: 50px 0 0 0; */
+ /*   position: center; /* Относительное позиционирование */
+/*    text-align: center; */
+    font-size: 30px;
+    font-weight: 400;
+   }
+
+
+strong { font-weight: 600; }
+
+a, a:hover, a:focus {
+/*	color: #d05a4e; */
+color: #fff;
+text-shadow: 1px 1px 2px black, 0 0 1em black; /* Параметры тени */
+padding-right: 20px;
+	text-decoration: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+p {
+
+color: #fff;
+text-shadow: 1px 1px 2px black, 0 0 1em black; /* Параметры тени */
+font-size: 20px;
+font-weight: 300;
+
+
+}
+
+h1, h2 {
+	margin-top: 10px;
+	font-size: 30px;
+    font-weight: 600;
+    color: #615c58;
+    line-height: 42px;
+}
+
+h3 {
+/*	font-size: 22px; */
+	font-size: 40px;
+    font-weight: 300;
+/*    color: #615c58; */
+    color: #fff;
+    text-shadow: 1px 1px 2px black, 0 0 1em black; /* Параметры тени */
+    line-height: 30px;
+}
+
+img { max-width: 100%; }
+
+::-moz-selection { background: #d05a4e; color: #fff; text-shadow: none; }
+::selection { background: #d05a4e; color: #fff; text-shadow: none; }
+
+
+/***** Top content *****/
+
+.inner-bg {
+    padding: 40px 0 170px 0;
+}
+
+.top-content h1 { color: #fff; }
+
+.top-content .description {
+	margin: 20px 0 10px 0;
+	color: #fff;
+}
+
+.top-content .description a { color: #fff; border-bottom: 2px dotted #fff; }
+.top-content .description a:hover, 
+.top-content .description a:focus { border: 0; }
+
+.top-content .top-big-link {
+	margin-top: 35px;
+}
+
+.form-box {
+	padding-top: 40px;
+}
+
+.form-top {
+	padding: 25px 25px 15px 25px;
+	background: #f7f4ed;
+	text-align: left;
+}
+
+.form-top h3 { margin-top: 0; }
+
+.form-bottom {
+	padding: 25px 25px 30px 25px;
+	background: #ebe6e0;
+	text-align: left;
+}
+
+.form-bottom form textarea {
+	height: 100px;
+}
+
+.form-bottom form .input-error {
+	border-color: #d05a4e;
+}
+
+
+/***** Media queries *****/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 767px) {
+	
+	.inner-bg { padding: 40px 0 110px 0; }
+
+}
